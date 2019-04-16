@@ -1,12 +1,10 @@
 ﻿using EnsureThat;
 using System;
 
-namespace MyFirstConsoleApplication
+namespace Calculator
 {
     public class Calculator
     {
-        int total;
-
         public int add(int first, int second)
         {
             Ensure.That(first, nameof(first)).IsGt(0);
@@ -22,7 +20,6 @@ namespace MyFirstConsoleApplication
             var calculator = new Calculator();
 
             Console.WriteLine(calculator.add(6, 6));
-
         }
     }
 }

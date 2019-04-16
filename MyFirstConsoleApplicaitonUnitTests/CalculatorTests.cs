@@ -1,9 +1,8 @@
 ﻿using FluentAssertions;
-using MyFirstConsoleApplication;
 using System;
 using Xunit;
 
-namespace MyFirstConsoleApplicaiton
+namespace Calculator
 {
     public class CalculatorTests
     {
